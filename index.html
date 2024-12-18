@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedores de Software</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+    <!-- Encabezado con logo y navegación -->
+    <header>
+        <div class="logo">VendedoresSoft</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>      
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <section class="hero">
+            <h1>Bienvenido a Vendedores de Software</h1>
+            <p>Ofrecemos soluciones digitales para llevar tu negocio al siguiente nivel.</p>
+        </section>
+
+        <!-- Sección sobre Nosotros -->
+        <section class="about-us" id="Nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a ofrecer soluciones de software a medida, ayudando a los negocios a mejorar su eficiencia y rentabilidad.</p>
+            <p>Nuestro equipo está compuesto por expertos en tecnología y consultores que se aseguran de que cada proyecto cumpla con los más altos estándares de calidad.</p>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section class="services" id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Desarrollo de aplicaciones personalizadas</li>
+                <li>Integración de sistemas y automatización de procesos</li>
+                <li>Consultoría en transformación digital</li>
+                <li>Soporte técnico y mantenimiento</li>
+            </ul>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="contact" id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar-formulario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="blog">
+        <p>&copy; 2024 Vendedores de Software. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
